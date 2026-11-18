@@ -22,14 +22,21 @@ API 增量 → CSV 备份与合并 → 重建 release → 回归评测 → 门�
 
 ### 1. 准备数据
 
-仓库不带真实数据。把快照放到 `output/`，或用 `--investors` / `--organizations` 指向外部目录：
+仓库不带真实数据。把快照放到 `output/`，或用 `--investors` / `--organizations` 指向外部目录。
+
+构建必需列（见 `scripts/build_investor_search_v2.py`）：
 
 ```text
-output/investors.csv          # 必需列：source_user_id, name, org_id, last_updated
-output/organizations.csv      # 必需列：org_id, chinese_name, last_updated
+investors.csv:     source_user_id, org_id, name, direction, person_expertise,
+                   person_investment_preferences, person_background,
+                   person_representative_deals, org_sector_focus, org_investment_stage,
+                   currency, inv_min, inv_max, compliance_overall
+organizations.csv: org_id, chinese_name, org_sector_focus, org_investment_stage,
+                   org_description, org_notable_portfolio,
+                   org_data_confidence, org_verification_status
 ```
 
-字段口径与 `scripts/build_investor_search_v2.py` 一致；完整列见 `scripts/sync_investors_api.py` 里的 `INVESTOR_FIELDS` / `ORG_FIELDS`。
+同步还需要 `last_updated` 列来判断增量窗口。完整可同步字段见 `scripts/sync_investors_api.py` 里的 `INVESTOR_FIELDS` / `ORG_FIELDS`。
 
 ### 2. 配置凭证
 
