@@ -1,0 +1,28 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Runtime data and state
+output/
+output_v2/
+source/
+releases/
+research/api_sync/
+research/runs/
+research/.cron_sync.lock
+data/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

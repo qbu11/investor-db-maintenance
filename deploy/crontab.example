@@ -1,0 +1,10 @@
+# /etc/cron.d/investor-db  (or `crontab -e`)
+#
+# Every day at 03:17 local time. Adjust the user and paths.
+# The outer flock prevents overlap with a manual run; the script also holds
+# research/.cron_sync.lock internally.
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+
+17 3 * * * investor cd /srv/investor-db && set -a && . /etc/investor-sync.env && set +a && /usr/bin/flock -n /tmp/investor-db-cron.lock /usr/bin/python3 scripts/cron_investor_sync.py --mode update >> /var/log/investor-db/sync.log 2>&1

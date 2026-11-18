@@ -1,0 +1,27 @@
+{
+  "policy_version": "1.0",
+  "baseline_report": "output_v2/investor_search_v2_recall_baseline_20261118.json",
+  "gate_modes": {
+    "regression": "candidate must not regress against the baseline beyond max_metric_drop",
+    "release": "candidate must satisfy absolute targets; requires human labels"
+  },
+  "thresholds": {
+    "tag_resolve_rate_min": 0.99,
+    "term_resolve_rate_min": 0.99,
+    "diagnostic_rate_min": 1.0,
+    "zero_result_rate_max": 0.02,
+    "avg_exact_ratio_min": 0.75,
+    "v2_fine_fallback_rate_max": 0.30,
+    "max_metric_drop": 0.02,
+    "human_precision_at_10_min": 0.80,
+    "human_mrr_min": 0.75,
+    "labeled_cases_min": 100,
+    "errors_max": 0
+  },
+  "coverage_targets": {
+    "organizations_with_tags_min": 0.75,
+    "investors_with_own_tags_min": 0.60,
+    "investors_with_terms_min": 0.40,
+    "sparse_term_queries_max": 2
+  }
+}

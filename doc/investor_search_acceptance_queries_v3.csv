@@ -1,0 +1,114 @@
+﻿case_id,category,query,sector,expected_tags,expected_terms,expected_behavior,negative_tag,notes
+alias_ai_zh,alias,人工智能,,人工智能,,pair:alias_ai_en,,中英别名一致性
+alias_ai_en,alias,AI,,人工智能,,pair:alias_ai_zh,,中英别名一致性
+alias_semiconductor_zh,alias,半导体,,半导体,,pair:alias_semiconductor_en,,
+alias_semiconductor_en,alias,Semiconductor,,半导体,,pair:alias_semiconductor_zh,,
+alias_robotics_zh,alias,机器人,,机器人,,pair:alias_robotics_en,,
+alias_robotics_en,alias,Robotics,,机器人,,pair:alias_robotics_zh,,
+alias_new_energy_zh,alias,新能源,,新能源,,pair:alias_new_energy_en,,
+alias_new_energy_en,alias,New Energy,,新能源,,pair:alias_new_energy_zh,,
+alias_embodied_en,alias,Embodied AI,,具身智能,,resolve,,
+alias_ic,alias,集成电路,,半导体,,resolve,,集成电路是半导体别名
+alias_ic_en,alias,IC,,半导体,,resolve,,IC 是半导体别名
+alias_saas,alias,SaaS,,SaaS与订阅,,resolve,,
+alias_healthcare_en,alias,Healthcare,,医疗健康,,resolve,,
+alias_biotech_en,alias,Biotech,,生物技术,,resolve,,
+alias_consumer_en,alias,Consumer,,大消费,,resolve,,
+alias_fintech_en,alias,FinTech,,金融科技,,resolve,,
+alias_cloud_en,alias,Cloud Computing,,云计算,,resolve,,
+alias_iot_en,alias,IoT,,物联网,,resolve,,
+alias_autotech_en,alias,AutoTech,,,汽车科技,term,,v2 无 AutoTech 标签，走场景词
+alias_space_en,alias,SpaceTech,,商业航天,,resolve,,
+concept_enterprise_service,concept,企业服务,,企业服务,,resolve,,
+concept_enterprise_software,concept,企业软件,,企业软件,,resolve,,
+concept_advanced_manufacturing,concept,先进制造,,先进制造,,resolve,,
+concept_medical_health,concept,医疗健康,,医疗健康,,resolve,,
+concept_medical_device,concept,医疗器械,,医疗器械,,resolve,,
+concept_semiconductor,concept,半导体,,半导体,,resolve,,
+concept_robotics,concept,机器人,,机器人,,resolve,,
+concept_embodied_ai,concept,具身智能,,具身智能,,resolve,,
+concept_new_energy,concept,新能源,,新能源,,resolve,,
+concept_nev,concept,新能源汽车,,新能源汽车,,resolve,,
+concept_new_material,concept,新材料,,新材料,,resolve,,
+concept_smart_manufacturing,concept,智能制造,,智能制造,,resolve,,
+concept_commercial_space,concept,商业航天,,商业航天,,resolve,,
+concept_low_altitude,concept,低空经济,,低空经济,,resolve,,
+concept_aerospace,concept,航空航天,,航空航天,,resolve,,
+concept_biopharma,concept,生物医药,,生物医药,,resolve,,
+concept_biotech_drug,concept,生物制药,,生物医药,,resolve,,生物制药归入生物医药
+concept_life_science,concept,生命科学,,,生命科学,term,,v2 无生命科学标签，走场景词
+concept_consumer,concept,消费,,大消费,,resolve,,
+concept_new_consumer,concept,新消费,,大消费,,resolve,,新消费归入大消费
+concept_consumer_tech,concept,消费科技,,大消费,,resolve,,消费科技归入大消费
+concept_media_entertainment,concept,文化娱乐,,文化传媒与内容,,resolve,,
+concept_education,concept,教育,,教育科技,,resolve,,
+concept_fintech,concept,金融科技,,金融科技,,resolve,,
+concept_logistics,concept,物流供应链,,供应链与物流,,resolve,,
+concept_cybersecurity,concept,网络安全,,网络安全,,resolve,,
+concept_cloud,concept,云计算,,云计算,,resolve,,
+concept_big_data,concept,大数据,,数据智能与大数据,,resolve,,
+concept_iot,concept,物联网,,物联网,,resolve,,
+concept_industrial_internet,concept,工业互联网,,工业互联网,,resolve,,
+concept_agritech,concept,农业科技,,农业科技,,resolve,,
+concept_foodtech,concept,食品科技,,食品饮料与餐饮,,resolve,,
+concept_clean_energy,concept,清洁能源,,新能源,,resolve,,
+concept_ev,concept,电动汽车,,新能源汽车,,resolve,,电动汽车是新能源汽车别名
+concept_high_end_manufacturing,concept,高端制造,,先进制造,,resolve,,高端制造归入先进制造
+concept_smart_hardware,concept,智能硬件,,智能硬件,,resolve,,
+concept_hardtech,concept,硬科技,,硬科技,,resolve,,
+concept_digital_economy,broad,数字经济,,,,broad,,规范禁止的宽泛词，应提示细化
+concept_information_tech,broad,信息技术,,,,broad,,规范禁止的宽泛词
+concept_tmt,broad,TMT,,,,broad,,规范禁止的宽泛词
+concept_tech_broad,broad,科技,,,,broad,,规范禁止的宽泛词
+fine_ai_agent,v2_fine,AI智能体,,AI智能体,,resolve,,v1 仅有父概念，观测父标签回退
+fine_llm,v2_fine,大模型,,基础模型与大语言模型,,resolve,,v2 细标签，v1 词表缺失
+fine_multimodal,v2_fine,多模态AI,,多模态AI,,resolve,,v1 仅有父概念，观测父标签回退
+fine_world_model,v2_fine,世界模型,,,世界模型,term,,v2 无世界模型标签，走场景词
+fine_ai_infra,v2_fine,AI基础设施,,AI基础设施,,resolve,,v1 仅有父概念，观测父标签回退
+fine_vla,v2_fine,VLA,,,VLA,term,,v2 无 VLA 标签，走场景词
+fine_robot_foundation_model,v2_fine,机器人基础模型,,,机器人基础模型,term,,v1 仅有父概念，观测父标签回退
+fine_semi_equipment,v2_fine,半导体设备,,半导体设备,,resolve,,v1 仅有父概念，观测父标签回退
+fine_eda,v2_fine,EDA,,EDA,,resolve,,v2 细标签，v1 词表缺失
+fine_autonomous_driving,v2_fine,智能驾驶,,,ADAS,term,,智能驾驶走 ADAS 场景词
+fine_fusion,v2_fine,核聚变,,可控核聚变,,resolve,,v2 细标签，v1 词表缺失
+fine_synbio,v2_fine,合成生物,,合成生物,,resolve,,v2 细标签，v1 词表缺失
+fine_gene_therapy,v2_fine,基因治疗,,基因与基因治疗,,resolve,,v2 细标签，v1 词表缺失
+fine_digital_health,v2_fine,数字医疗,,数字医疗,,resolve,,v2 细标签，v1 词表缺失
+fine_silver_economy,v2_fine,银发经济,,养老与银发经济,,resolve,,v2 细标签，v1 词表缺失
+fine_additive_manufacturing,v2_fine,增材制造,,3D打印与增材制造,,resolve,,v2 细标签，v1 词表缺失
+fine_defense_tech,v2_fine,防务科技,,,防务科技,term,,v2 细标签，v1 词表缺失
+fine_ai_chip,v2_fine,AI芯片,,AI芯片,,resolve,,v1 仅有父概念，观测父标签回退
+nl_industrial_ai_inspection,natural_language,工业AI质检,,人工智能,质检,mixed,,细分词在源数据无证据时须暴露诊断
+nl_llm_inference,natural_language,大模型推理优化,,,大模型推理,term,,真实自然语言查询
+nl_nev_parts,natural_language,新能源汽车零部件,,新能源汽车,,resolve,,真实自然语言查询
+nl_medical_device_registration,natural_language,医疗器械注册,,医疗器械,,resolve,,真实自然语言查询
+nl_saas_procurement,natural_language,企业采购SaaS,,SaaS与订阅,,resolve,,真实自然语言查询
+nl_crossborder_logistics,natural_language,跨境电商物流,,供应链与物流,跨境电商,mixed,,真实自然语言查询
+nl_ai_medical_imaging,natural_language,AI医疗影像,,人工智能,医疗影像,mixed,,真实自然语言查询
+nl_smart_cabin,natural_language,智能座舱,,,智能座舱,term,,真实自然语言查询
+nl_energy_storage_battery,natural_language,储能电池,,储能;电池,,resolve,,真实自然语言查询
+nl_industrial_robot,natural_language,工业机器人,,工业机器人,,resolve,,真实自然语言查询
+nl_service_robot,natural_language,服务机器人,,服务机器人,,resolve,,真实自然语言查询
+nl_semi_material,natural_language,半导体材料,,半导体材料,,resolve,,真实自然语言查询
+nl_consumer_brand_go_global,natural_language,消费品牌出海,,消费品牌;全球化与出海,,resolve,,真实自然语言查询
+nl_agri_drone,natural_language,农业无人机,,无人机,,resolve,,真实自然语言查询
+nl_fintech_risk,natural_language,金融风控,,金融服务,风控,mixed,,真实自然语言查询
+boundary_robot_vs_embodied,boundary,机器人,,机器人,,boundary,具身智能,边界用例：negative 只能 related 或无关，不能等价
+boundary_embodied_vs_robot,boundary,具身智能,,具身智能,,boundary,机器人,边界用例：negative 只能 related 或无关，不能等价
+boundary_semi_vs_ic,boundary,半导体,,半导体,,pair:boundary_ic_vs_semi,,集成电路是半导体别名，应同结果
+boundary_ic_vs_semi,boundary,集成电路,,半导体,,pair:boundary_semi_vs_ic,,边界用例：negative 只能 related 或无关，不能等价
+boundary_enterprise_software_vs_saas,boundary,企业软件,,企业软件,,boundary,SaaS与订阅,边界用例：negative 只能 related 或无关，不能等价
+boundary_new_energy_vs_material,boundary,新能源,,新能源,,boundary,新材料,边界用例：negative 只能 related 或无关，不能等价
+boundary_material_vs_energy,boundary,新材料,,新材料,,boundary,新能源,边界用例：negative 只能 related 或无关，不能等价
+boundary_smart_mfg_vs_ai,boundary,智能制造,,智能制造,,boundary,人工智能,边界用例：negative 只能 related 或无关，不能等价
+boundary_ai_vs_smart_mfg,boundary,人工智能,,人工智能,,boundary,智能制造,边界用例：negative 只能 related 或无关，不能等价
+boundary_ev_vs_nev,boundary,电动汽车,,新能源汽车,,resolve,,电动汽车是新能源汽车别名
+tail_quantum_computing,long_tail,量子计算,,,量子计算,term,,预期未映射，检验不伪造概念
+tail_quantum_sensing,long_tail,量子传感,,,,unmapped,,预期未映射，检验不伪造概念
+tail_brain_computer_interface,long_tail,脑机接口,,脑机接口,,resolve,,预期未映射，检验不伪造概念
+tail_spatial_computing,long_tail,空间计算,,AR/VR与空间计算,,resolve,,预期未映射，检验不伪造概念
+tail_protein_design,long_tail,蛋白质设计,,,,unmapped,,预期未映射，检验不伪造概念
+tail_quantum_odor_topology,long_tail,量子气味拓扑,,,,unmapped,,预期未映射，检验不伪造概念
+tail_nuclear_fusion_long,long_tail,可控核聚变,,可控核聚变,,resolve,,预期未映射，检验不伪造概念
+filter_explicit_ai,filter,质量检测,人工智能,人工智能,质检,mixed,,显式 sector 过滤
+filter_explicit_health,filter,外科器械,医疗器械,医疗器械,,resolve,,显式 sector 过滤

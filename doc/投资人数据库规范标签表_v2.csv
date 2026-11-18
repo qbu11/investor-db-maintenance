@@ -1,0 +1,151 @@
+tag_id,facet,group,canonical_name,aliases,parent_id
+sector.ai,sector,AI与数据,人工智能,AI;Artificial Intelligence;人工智慧,
+sector.ai.foundation_model,sector,AI与数据,基础模型与大语言模型,大模型;基础模型;Foundation Model;LLM;Large Language Model,sector.ai
+sector.ai.multimodal,sector,AI与数据,多模态AI,多模态;Multimodal AI;多模态大模型,sector.ai
+sector.ai.generative,sector,AI与数据,生成式AI,AIGC;GenAI;Generative AI;生成式人工智能,sector.ai
+sector.ai.agent,sector,AI与数据,AI智能体,AI Agent;AI Agents;Agentic AI;智能体;智能代理;Agent应用;智能体应用;企业级智能体,sector.ai
+sector.ai.application,sector,AI与数据,AI应用,人工智能应用;AI软件;AI原生应用,sector.ai
+sector.ai.infrastructure,sector,AI与数据,AI基础设施,AI Infra;人工智能基础设施;智算基础设施;模型基础设施,sector.ai
+sector.ai.chip,sector,AI与数据,AI芯片,人工智能芯片;AI加速芯片;GPU;NPU,sector.ai
+sector.ai.mlops,sector,AI与数据,AI开发工具与MLOps,MLOps;LLMOps;模型开发工具;机器学习平台,sector.ai
+sector.ai.safety,sector,AI与数据,AI安全,人工智能安全;模型安全;大模型安全;AI治理,sector.ai
+sector.ai.data,sector,AI与数据,数据智能与大数据,大数据;数据智能;Data Intelligence;Big Data,sector.ai
+sector.ai.cv,sector,AI与数据,计算机视觉,CV;Computer Vision;机器视觉;图像识别,sector.ai
+sector.ai.nlp,sector,AI与数据,自然语言处理,NLP;Natural Language Processing;语言模型,sector.ai
+sector.ai.speech,sector,AI与数据,语音技术,语音识别;语音合成;Speech AI;ASR;TTS,sector.ai
+sector.ai.ai4science,sector,AI与数据,AI for Science,AI4Science;AI4S;科学智能;AI科学计算,sector.ai
+sector.ai.rag,sector,AI与数据,RAG,Retrieval-Augmented Generation;检索增强生成,sector.ai
+sector.ai.knowledge_graph,sector,AI与数据,知识图谱,Knowledge Graph;KG,sector.ai
+sector.software.enterprise,sector,软件与数字基础设施,企业软件,Enterprise Software;B2B软件;ToB软件,
+sector.software.cloud,sector,软件与数字基础设施,云计算,Cloud Computing;云服务,
+sector.software.database,sector,软件与数字基础设施,数据库与数据基础设施,数据库;Database;数据基础设施;数据中台,
+sector.software.devtools,sector,软件与数字基础设施,开发者工具,Developer Tools;DevTools;开发工具,
+sector.software.os,sector,软件与数字基础设施,基础软件与操作系统,基础软件;操作系统;OS;中间件,
+sector.software.cybersecurity,sector,软件与数字基础设施,网络安全,信息安全;Cybersecurity;Cyber Security,
+sector.software.web3,sector,软件与数字基础设施,区块链与Web3,区块链;Blockchain;Web3;Web 3.0,
+sector.software.iot,sector,软件与数字基础设施,物联网,IoT;Internet of Things;AIoT,
+sector.software.edge,sector,软件与数字基础设施,边缘计算,Edge Computing;边缘云,
+sector.software.telecom,sector,软件与数字基础设施,通信与5G,通信;通讯;5G;ICT,
+sector.software.xr,sector,软件与数字基础设施,AR/VR与空间计算,AR;VR;XR;虚拟现实;增强现实;空间计算,
+sector.semiconductor,sector,半导体与智能硬件,半导体,Semiconductor;Semiconductors;芯片半导体;集成电路;IC,
+sector.semiconductor.design,sector,半导体与智能硬件,芯片设计,IC设计;集成电路设计;Chip Design,sector.semiconductor
+sector.semiconductor.equipment,sector,半导体与智能硬件,半导体设备,芯片设备;Semiconductor Equipment,sector.semiconductor
+sector.semiconductor.material,sector,半导体与智能硬件,半导体材料,芯片材料;Semiconductor Materials,sector.semiconductor
+sector.semiconductor.eda,sector,半导体与智能硬件,EDA,电子设计自动化;EDA软件,sector.semiconductor
+sector.semiconductor.optoelectronics,sector,半导体与智能硬件,光电子,光电;Optoelectronics;光芯片,sector.semiconductor
+sector.semiconductor.sensor,sector,半导体与智能硬件,传感器,Sensor;Sensors;MEMS,sector.semiconductor
+sector.hardware.smart,sector,半导体与智能硬件,智能硬件,Smart Hardware;智能终端;消费电子,
+sector.robotics,sector,机器人与制造,机器人,Robotics;Robot,
+sector.robotics.industrial,sector,机器人与制造,工业机器人,Industrial Robot;工业机械臂,sector.robotics
+sector.robotics.service,sector,机器人与制造,服务机器人,Service Robot;商用服务机器人,sector.robotics
+sector.robotics.embodied,sector,机器人与制造,具身智能,具身;Embodied AI;Embodied Intelligence;Physical AI,sector.robotics
+sector.manufacturing.advanced,sector,机器人与制造,先进制造,Advanced Manufacturing;高端制造;High-end Manufacturing,
+sector.manufacturing.smart,sector,机器人与制造,智能制造,Smart Manufacturing;智慧制造,sector.manufacturing.advanced
+sector.manufacturing.industrial_internet,sector,机器人与制造,工业互联网,Industrial Internet,sector.manufacturing.advanced
+sector.manufacturing.equipment,sector,机器人与制造,高端装备,高端装备制造;High-end Equipment;智能装备,sector.manufacturing.advanced
+sector.manufacturing.automation,sector,机器人与制造,工业自动化,自动化设备;Industrial Automation,sector.manufacturing.advanced
+sector.manufacturing.additive,sector,机器人与制造,3D打印与增材制造,3D打印;增材制造;Additive Manufacturing,sector.manufacturing.advanced
+sector.mobility.auto,sector,汽车航天与防务,汽车,汽车产业;Automotive,
+sector.mobility.nev,sector,汽车航天与防务,新能源汽车,新能源车;NEV;New Energy Vehicle;电动汽车,sector.mobility.auto
+sector.mobility.autonomous,sector,汽车航天与防务,自动驾驶,Autonomous Driving;无人驾驶,sector.mobility.auto
+sector.mobility.connected,sector,汽车航天与防务,智能网联汽车,智能汽车;智能网联;车联网;Connected Vehicle,sector.mobility.auto
+sector.mobility.parts,sector,汽车航天与防务,汽车零部件,Auto Parts;汽车部件;汽配,sector.mobility.auto
+sector.mobility.electronics,sector,汽车航天与防务,汽车电子,Automotive Electronics;车用电子,sector.mobility.auto
+sector.mobility.service,sector,汽车航天与防务,出行服务,移动出行;汽车出行;Mobility Service,
+sector.aerospace,sector,汽车航天与防务,航空航天,Aerospace,
+sector.aerospace.commercial_space,sector,汽车航天与防务,商业航天,Commercial Space;SpaceTech,sector.aerospace
+sector.aerospace.low_altitude,sector,汽车航天与防务,低空经济,Low-altitude Economy;Low Altitude Economy,sector.aerospace
+sector.aerospace.drone,sector,汽车航天与防务,无人机,UAV;Drone;Drones,sector.aerospace
+sector.defense,sector,汽车航天与防务,军工与防务,军工;国防科技;Defense Tech,
+sector.energy.new,sector,能源气候与材料,新能源,New Energy;清洁能源;绿色能源,
+sector.energy.solar,sector,能源气候与材料,光伏,太阳能;Solar;Photovoltaic,sector.energy.new
+sector.energy.wind,sector,能源气候与材料,风电,风能;Wind Power,sector.energy.new
+sector.energy.storage,sector,能源气候与材料,储能,Energy Storage;新型储能,sector.energy.new
+sector.energy.battery,sector,能源气候与材料,电池,动力电池;锂电池;Battery,sector.energy.new
+sector.energy.hydrogen,sector,能源气候与材料,氢能,Hydrogen Energy;氢能源,sector.energy.new
+sector.energy.nuclear,sector,能源气候与材料,核能,核电;Nuclear Energy,sector.energy.new
+sector.energy.fusion,sector,能源气候与材料,可控核聚变,核聚变;聚变能源;Fusion Energy,sector.energy.new
+sector.energy.grid,sector,能源气候与材料,智能电网,Smart Grid;电网数字化,sector.energy.new
+sector.energy.digital,sector,能源气候与材料,能源服务与数字化,能源服务;能源数字化;Energy Tech,
+sector.climate,sector,能源气候与材料,碳中和与气候科技,碳中和;双碳;气候科技;Climate Tech,
+sector.environment,sector,能源气候与材料,节能环保,环保;环境保护;节能减排;Environmental Protection,
+sector.circular,sector,能源气候与材料,循环经济与资源回收,循环经济;资源回收;再生资源;Recycling,
+sector.material,sector,能源气候与材料,新材料,先进材料;Advanced Materials,
+sector.material.chemical,sector,能源气候与材料,先进化工与化学材料,先进化工;化学材料;精细化工,sector.material
+sector.health,sector,医疗与生命科学,医疗健康,医疗;医药健康;大健康;生命健康;Healthcare,
+sector.health.biopharma,sector,医疗与生命科学,生物医药,生物制药;Biopharma;Biomedicine,sector.health
+sector.health.biotech,sector,医疗与生命科学,生物技术,生物科技;Biotech;Biotechnology,sector.health
+sector.health.device,sector,医疗与生命科学,医疗器械,Medical Device;Medical Devices,sector.health
+sector.health.diagnostics,sector,医疗与生命科学,诊断与检测,体外诊断;IVD;医学检测;分子诊断,sector.health
+sector.health.digital,sector,医疗与生命科学,数字医疗,智慧医疗;互联网医疗;Digital Health,sector.health
+sector.health.service,sector,医疗与生命科学,医疗服务,Healthcare Services;专科医疗,sector.health
+sector.health.life_science_tools,sector,医疗与生命科学,生命科学工具,科研工具;Life Science Tools;实验室工具,sector.health
+sector.health.gene,sector,医疗与生命科学,基因与基因治疗,基因技术;基因编辑;基因治疗;Gene Therapy,sector.health.biotech
+sector.health.cell_therapy,sector,医疗与生命科学,细胞治疗,细胞疗法;Cell Therapy,sector.health.biotech
+sector.health.synthetic_biology,sector,医疗与生命科学,合成生物,合成生物学;Synthetic Biology,sector.health.biotech
+sector.health.bci,sector,医疗与生命科学,脑机接口,BCI;Brain-Computer Interface,sector.health
+sector.health.silver,sector,医疗与生命科学,养老与银发经济,养老;银发经济;老龄科技,sector.health
+sector.health.biomanufacturing,sector,医疗与生命科学,生物制造,Biomanufacturing;生物智造,sector.health.biotech
+sector.consumer,sector,消费媒体与生活方式,大消费,消费;消费品;Consumer,
+sector.consumer.brand,sector,消费媒体与生活方式,消费品牌,品牌消费;新消费品牌,sector.consumer
+sector.consumer.retail,sector,消费媒体与生活方式,零售与电商,零售;电子商务;电商;消费电商;Retail;E-commerce,sector.consumer
+sector.consumer.food,sector,消费媒体与生活方式,食品饮料与餐饮,食品;饮料;食品科技;餐饮;餐饮服务;Food and Beverage;Restaurant,sector.consumer
+sector.consumer.beauty,sector,消费媒体与生活方式,美妆个护,美妆;个护;Beauty,sector.consumer
+sector.consumer.fashion,sector,消费媒体与生活方式,服饰时尚,服装;服饰;时尚;Fashion,sector.consumer
+sector.consumer.home,sector,消费媒体与生活方式,家居生活,家居;家装;智能家居;Home Living,sector.consumer
+sector.consumer.pet,sector,消费媒体与生活方式,宠物,宠物经济;Pet,sector.consumer
+sector.consumer.sports,sector,消费媒体与生活方式,体育与户外,体育;户外;Sports,sector.consumer
+sector.consumer.travel,sector,消费媒体与生活方式,旅游,文旅;旅行;Travel,sector.consumer
+sector.consumer.media,sector,消费媒体与生活方式,文化传媒与内容,文化娱乐;文娱;传媒;数字内容;Media and Entertainment,sector.consumer
+sector.consumer.game,sector,消费媒体与生活方式,游戏,电子游戏;Gaming,sector.consumer
+sector.consumer.social,sector,消费媒体与生活方式,社交与社区,社交;社区;Social,sector.consumer
+sector.consumer.local,sector,消费媒体与生活方式,本地生活服务,本地生活;生活服务;Local Services,sector.consumer
+sector.service.enterprise,sector,行业服务,企业服务,企业级服务;ToB服务;B2B服务,
+sector.finance.fintech,sector,行业服务,金融科技,FinTech;Financial Technology;科技金融,
+sector.finance.service,sector,行业服务,金融服务,金融;Financial Services,
+sector.finance.insurance,sector,行业服务,保险,保险科技;InsurTech,sector.finance.service
+sector.finance.payment,sector,行业服务,支付,支付科技;Payments,sector.finance.service
+sector.finance.wealth,sector,行业服务,财富与资产管理,财富管理;资产管理;WealthTech,sector.finance.service
+sector.logistics,sector,行业服务,供应链与物流,供应链;物流;物流供应链;Logistics and Supply Chain,
+sector.education,sector,行业服务,教育科技,教育;在线教育;EdTech,
+sector.proptech,sector,行业服务,房地产与建筑科技,房地产;建筑科技;PropTech;ConTech,
+sector.agriculture,sector,行业服务,农业科技,农业;现代农业;AgriTech,
+sector.smart_city,sector,行业服务,智慧城市与政务科技,智慧城市;政务科技;GovTech,
+sector.professional_service,sector,行业服务,专业服务,企业管理咨询;咨询服务;Professional Services,
+sector.hr,sector,行业服务,人力资源,HR Tech;人力资源科技;招聘服务;Human Resources,
+stage.poc,stage,投资阶段,概念验证,想法阶段;概念阶段;PoC;原型阶段,
+stage.seed,stage,投资阶段,种子轮,种子期;Seed,
+stage.angel,stage,投资阶段,天使轮,天使期;Angel,
+stage.pre_a,stage,投资阶段,Pre-A轮,Pre A;PreA,
+stage.a,stage,投资阶段,A轮,Series A,
+stage.b,stage,投资阶段,B轮,Series B,
+stage.c_plus,stage,投资阶段,C轮及以后,C轮;D轮;E轮;Series C;Late Stage,
+stage.early,stage,投资阶段,早期,早期投资;早期阶段;中早期;初创期;Early Stage,
+stage.growth,stage,投资阶段,成长期,成长轮;Growth,
+stage.pre_ipo,stage,投资阶段,Pre-IPO,IPO前;Pre IPO,
+stage.buyout,stage,投资阶段,并购与控股投资,并购;控股投资;Buyout;M&A,
+stage.secondary,stage,投资阶段,二手份额,老股;S基金;Secondary,
+stage.public_market,stage,投资阶段,公开市场,二级市场;公开市场投资;Public Market,
+model.b2b,business_model,客户与商业模式,To B,B2B;ToB;企业客户,
+model.b2c,business_model,客户与商业模式,To C,B2C;ToC;消费者业务,
+model.b2g,business_model,客户与商业模式,To G,B2G;ToG;政府客户,
+model.saas,business_model,客户与商业模式,SaaS与订阅,SaaS;Software as a Service;订阅制,
+model.marketplace,business_model,客户与商业模式,Marketplace与平台撮合,Marketplace;双边平台;平台撮合,
+model.dtc,business_model,客户与商业模式,DTC与直营,DTC;Direct to Consumer;直营,
+model.licensing,business_model,客户与商业模式,许可与IP授权,License;Licensing;IP授权;技术授权,
+model.hardware,business_model,客户与商业模式,硬件销售,设备销售;Hardware Sales,
+model.project_service,business_model,客户与商业模式,项目制与专业服务,项目制;解决方案交付;Project-based Service,
+capital.vc,capital_type,机构与资本类型,独立VC,VC;风险投资;创业投资;创投机构,
+capital.pe,capital_type,机构与资本类型,PE与并购基金,PE;私募股权;并购基金,
+capital.cvc,capital_type,机构与资本类型,CVC与产业资本,CVC;企业创投;产业资本;Corporate VC,
+capital.government,capital_type,机构与资本类型,政府引导基金与国资,政府引导基金;国资基金;国有资本,
+capital.fof,capital_type,机构与资本类型,母基金,FOF;Fund of Funds,
+capital.family_office,capital_type,机构与资本类型,家族办公室,Family Office;家办,
+capital.incubator,capital_type,机构与资本类型,孵化器与加速器,孵化器;加速器;Incubator;Accelerator,
+capital.university,capital_type,机构与资本类型,大学与科研成果转化基金,高校基金;科研成果转化基金;院所基金,
+capital.financial_institution,capital_type,机构与资本类型,金融机构投资平台,银行投资平台;券商直投;保险资管,
+capital.entrepreneur,capital_type,机构与资本类型,企业家与自有资本,企业家投资;自有资本;个人投资平台,
+theme.hardtech,theme,跨赛道投资主题,硬科技,Hard Tech;Deep Tech;深科技,
+theme.frontier,theme,跨赛道投资主题,前沿科技,前沿技术;Frontier Tech;未来科技,
+theme.tech_transfer,theme,跨赛道投资主题,科技成果转化,成果转化;技术转移;Technology Transfer,
+theme.global,theme,跨赛道投资主题,全球化与出海,出海;跨境出海;Globalization;Go Global,
