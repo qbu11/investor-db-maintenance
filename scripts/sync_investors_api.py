@@ -32,8 +32,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import investor_api_client as api_client  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INVESTORS = ROOT / "output" / "investors_enriched_20260728_1745.csv"
-DEFAULT_ORGANIZATIONS = ROOT / "output" / "organizations_enriched_20260728_1745.csv"
+
+
+def _default_snapshot(stable_name: str, legacy_name: str) -> Path:
+    stable = ROOT / "output" / stable_name
+    return stable if stable.is_file() else ROOT / "output" / legacy_name
+
+
+DEFAULT_INVESTORS = _default_snapshot("investors.csv", "investors_enriched_20260728_1745.csv")
+DEFAULT_ORGANIZATIONS = _default_snapshot("organizations.csv", "organizations_enriched_20260728_1745.csv")
 DEFAULT_STATE = ROOT / "research" / "api_sync_state.json"
 DEFAULT_BACKUP_DIR = ROOT / "data" / "backups"
 DEFAULT_REPORT_DIR = ROOT / "research" / "api_sync"

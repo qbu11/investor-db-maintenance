@@ -30,8 +30,13 @@ ROOT = Path(__file__).resolve().parents[1]
 BUILD_PATH = ROOT / "scripts" / "build_investor_search_v2.py"
 EVAL_PATH = ROOT / "scripts" / "eval_investor_search_v2.py"
 MANAGE_PATH = ROOT / "scripts" / "manage_release.py"
-DEFAULT_INVESTORS = ROOT / "output" / "investors_enriched_20260728_1745.csv"
-DEFAULT_ORGANIZATIONS = ROOT / "output" / "organizations_enriched_20260728_1745.csv"
+def _default_snapshot(stable_name: str, legacy_name: str) -> Path:
+    stable = ROOT / "output" / stable_name
+    return stable if stable.is_file() else ROOT / "output" / legacy_name
+
+
+DEFAULT_INVESTORS = _default_snapshot("investors.csv", "investors_enriched_20260728_1745.csv")
+DEFAULT_ORGANIZATIONS = _default_snapshot("organizations.csv", "organizations_enriched_20260728_1745.csv")
 DEFAULT_TAGS = ROOT / "doc" / "投资人数据库规范标签表_v2.csv"
 DEFAULT_TERMS = ROOT / "doc" / "investor_search_terms_v2.csv"
 DEFAULT_QUERIES = ROOT / "doc" / "investor_search_acceptance_queries_v3.csv"
