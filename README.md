@@ -51,14 +51,11 @@ python3 scripts/sync_investors_api.py --dry-run --max-pages 40
 ### 4. 首次同步与基线发布
 
 ```bash
-# 第一次建议只补空值
+# 第一次建议只补空值；这一轮会同时建立第一版发布基线
 python3 scripts/cron_investor_sync.py --mode fill
-
-# 建立第一版基线（门禁此时没有上一版可比）
-python3 scripts/run_investor_release.py
 ```
 
-之后每天用 `--mode update`。
+之后每天用 `--mode update`。第一版没有上一版可比，门禁只检查评测错误数；从第二版起按上一版 `eval_report.json` 做回归。
 
 ## 合并策略
 
