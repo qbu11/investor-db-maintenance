@@ -120,6 +120,10 @@ python3 -m unittest discover -s tests -v
 
 测试全部使用合成数据，不需要 API 凭证和真实快照。
 
+## 相关仓库
+
+- 新增投资人、补全稀疏字段：用 [investor-research](https://github.com/qbu11/investor-research-skill) skill 调研并写入 `output/investors_enriched.csv`，再回到本仓库重建发布。
+
 ## 文档
 
 - [增量同步与发布手册](doc/投资人数据库增量同步与发布手册.md)
